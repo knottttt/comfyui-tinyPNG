@@ -1,0 +1,13 @@
+[project]
+name = "comfyui-tinyPNG"
+description = "A ComfyUI custom node for compressing images using the TinyPNG API."
+version = "1.0.0"
+license = { file = "LICENSE" }
+
+[project.urls]
+Repository = "https://github.com/knottttt/comfyui-tinyPNG"
+
+[tool.comfy]
+PublisherId = "knottttt"
+DisplayName = "ComfyUI TinyPNG"
+Icon = ""
