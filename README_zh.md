@@ -39,7 +39,7 @@ pip install -r requirements.txt
 
 ## 截图
 
-请将节点截图放入仓库（例如 `assets/screenshot.png`）并替换此占位说明。
+![TinyPNG Compress 节点截图](./assets/screenshot.png)
 
 ## 致谢
 

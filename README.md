@@ -39,7 +39,7 @@ Restart ComfyUI.
 
 ## Screenshot
 
-Add screenshot file to repository and update this section, e.g. `assets/screenshot.png`.
+![TinyPNG Compress node screenshot](./assets/screenshot.png)
 
 ## Acknowledgements
 
