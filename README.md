@@ -52,6 +52,11 @@ Add screenshot file to repository and update this section, e.g. `assets/screensh
 
 请将节点截图放入仓库（例如 `assets/screenshot.png`）并替换此占位说明。
 
+## Acknowledgements / 致谢
+
+- This project is inspired by and references [TinyGUI](https://github.com/chenjing1294/TinyGUI).
+- 本项目灵感与实现思路参考自 [TinyGUI](https://github.com/chenjing1294/TinyGUI)。
+
 ## License
 
 MIT. See [LICENSE](./LICENSE).

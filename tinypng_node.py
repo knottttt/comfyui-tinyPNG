@@ -30,8 +30,9 @@ def _tensor_to_pil(image_tensor: torch.Tensor) -> Image.Image:
 
 
 def _pil_to_tensor(image: Image.Image) -> torch.Tensor:
-    # Keep alpha channel when present to avoid turning transparent areas into black.
-    if "A" in image.getbands():
+    # Keep alpha for true alpha modes and palette PNGs with transparency metadata.
+    has_alpha = "A" in image.getbands() or "transparency" in image.info
+    if has_alpha:
         out = image.convert("RGBA")
     else:
         out = image.convert("RGB")
